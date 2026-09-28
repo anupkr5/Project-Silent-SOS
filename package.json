@@ -1,0 +1,17 @@
+{
+  "name": "silent-sos",
+  "version": "1.0.0",
+  "description": "Silent SOS emergency web app with Node/Express backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:env": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "optionalDependencies": {
+    "twilio": "^5.0.0"
+  },
+  "engines": { "node": ">=18" }
+}
